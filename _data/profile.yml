@@ -1,5 +1,6 @@
 primary_name: "Jeongseok Oh"
 navbar_name: "Jeongseok Oh"
+navbar_url: "/"
 
 positions:
 - logo: /assets/images/badges/GIST.svg  # Logo is optional

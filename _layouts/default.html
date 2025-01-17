@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
 </head>
 <body class="bg" {{ page.body_attr }}>
+    <header>
+        <a href="{{ site.url | default: '/' }}">{{ site.primary_name }}</a>
+    </header>
     {% include navbar.html %}
     <div class="container">
         {{content}}
