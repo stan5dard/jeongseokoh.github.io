@@ -12,7 +12,7 @@ pub_pp:         "1-8."
 
 abstract: >-
   In VR environments, user’s sense of presence is enhanced through natural locomotion. Redirected Walking (RDW) technology can provide a wider walking area by manipulating the trajectory of the user. Considering that the user’s future position enables a broader application of RDW, research has utilized gaze data combined with past positions to reduce prediction errors. However, in VR content that are replete with creatures and decorations, gaze dispersion may deteriorate the data quality. Thus, we propose an alternative system that utilizes gait data, GaitWay, which correlates directly to user locomotion. This study involved 11 participants navigating a visually distracting three-tiered VR environment while performing designated tasks. We employed a long short-term memory network for GaitWay to forecast positions two seconds ahead and evaluated the prediction accuracy. The findings demonstrated that incorporating gaze data significantly increased errors in highly-distracted settings, whereas GaitWay consistently reduced errors, regardless of the environmental complexity.
-cover: /assets/images/covers/GaitWay.gif
+cover: /assets/images/covers/GaitWay.png
 authors:
   - Seokhyun Hwang
   - YongIn Kim
