@@ -2,7 +2,7 @@
 <details class="publication-abstract small mt-2">
     <summary>
         <span class="abstract-preview">{{ include.item.abstract | strip_html | truncatewords: 38, '...' }}</span>
-        <span class="abstract-toggle font-weight-bold"><span class="abstract-show">Show full abstract</span><span class="abstract-hide">Hide abstract</span><span class="sr-only">: {{ include.item.title | escape }}</span></span>
+        <span class="abstract-toggle font-weight-bold">Abstract<span class="sr-only">: {{ include.item.title | escape }}</span></span>
     </summary>
     <p class="mt-2 mb-0">{{ include.item.abstract }}</p>
 </details>

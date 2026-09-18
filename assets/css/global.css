@@ -93,14 +93,8 @@ div.lazy {
     text-decoration: underline;
 }
 
-.publication-abstract .abstract-hide,
-.publication-abstract[open] .abstract-show,
 .publication-abstract[open] .abstract-preview {
     display: none;
-}
-
-.publication-abstract[open] .abstract-hide {
-    display: inline;
 }
 
 .publication-item,
