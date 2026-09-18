@@ -8,7 +8,7 @@ pub:            "CHI '25: Proceedings of the 2025 CHI Conference on Human Factor
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">1<sup>st</sup> author</span>'
 pub_vol:        "No.365"
 pub_date:       "25. April. 2025."
-pub_pp:         "1-26."
+pub_pp:         "1-26. <strong>Best Paper Award</strong>"
 
 abstract: >-
   This paper introduces TelePulse, a system integrating biomechanical simulation with electrical muscle stimulation (EMS) to provide precise haptic feedback for teleoperation tasks in virtual reality. TelePulse comprises two key components: a physical simulation module that calculates joint torques based on real-time force data, and an EMS module that converts these torques into muscle stimulation. Two experiments were conducted to evaluate the system. In the first experiment, we assessed the accuracy of EMS signals generated through biomechanical simulations by comparing them with electromyography (EMG) data during force-directed tasks. The results demonstrated that TelePulse provided muscle stimulation patterns closely resembling natural muscle activations. In the second experiment, we evaluated the impact of TelePulse on teleoperation performance across continuous and impulse force tasks, showing significant improvements in task accuracy and presence compared to conventional EMS systems. The results suggest that TelePulse's biomechanical EMS enhances teleoperation by providing realistic force feedback in virtual environments.
@@ -16,7 +16,7 @@ cover: /assets/images/covers/TelePulse.png
 authors:
   - Seokhyun Hwang *
   - Seongjun Kang *
-  - <strong>Jeongseok Oh *</strong>
+  - Jeongseok Oh *
   - Jeongju Park
   - Semoo Shin
   - Yiyue Luo
@@ -28,5 +28,5 @@ authors:
   - SeungJun Kim
 links:
   DOI: https://doi.org/10.1145/3706598.3713767
-#   PDF: /assets/paper/lumimood.pdf
+  PDF: /assets/paper/TelePulse.pdf
 ---

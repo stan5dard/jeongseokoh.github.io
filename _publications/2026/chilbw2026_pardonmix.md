@@ -20,5 +20,5 @@ authors:
   - SeungJun Kim
 links:
   DOI: https://doi.org/10.1145/3772363.3798647
-#   PDF: /assets/paper/lumimood.pdf
+  PDF: /assets/paper/PardonMix.pdf
 ---

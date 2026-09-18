@@ -1,5 +1,5 @@
 ---
-title:          "MoWa: An Authoring Tool for Refining AI-Generated Avatar Motion through Latent Waveform Manipulation"
+title:          "MoWa: An Authoring Tool for Refining AI-Generated Human Avatar Motions Through Latent Waveform Manipulation"
 date:           April 2025
 selected:       true
 pub:            "CHI '25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems"
@@ -18,5 +18,5 @@ authors:
   - SeungJun Kim
 links:
   DOI: https://doi.org/10.1145/3706598.3714253
-#   PDF: /assets/paper/lumimood.pdf
+  PDF: /assets/paper/MoWa.pdf
 ---

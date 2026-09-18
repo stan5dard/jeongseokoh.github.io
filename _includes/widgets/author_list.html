@@ -17,6 +17,7 @@
         {%- assign mark = "" -%}
     {%- endif -%}
 
+    {%- assign key = key | strip -%}
     {%- assign info = site.data.authors[key] -%}
 
     {%- if info['name'] -%}

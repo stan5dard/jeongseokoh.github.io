@@ -2,23 +2,38 @@
 layout: default
 title : Publications
 navbar_title: Publications
+description: "Research publications by Jeongseok Oh, with abstracts, DOI links, and available PDFs."
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
+<h1>Publications</h1>
+<p>Research papers, extended abstracts, and technical reports. <strong>Bold</strong> denotes my name; * denotes equal contribution.</p>
+<div class="bg-white rounded-sm shadow-sm p-3 mb-3" id="publication-search" hidden>
+    <label for="publication-query" class="font-weight-bold">Search publications</label>
+    <div class="d-flex">
+        <input type="search" id="publication-query" class="form-control mr-2" placeholder="Title, author, venue, or keyword" aria-controls="publication-results" aria-describedby="publication-count">
+        <button type="button" class="btn btn-outline-secondary" id="publication-clear">Clear</button>
+    </div>
+    <p id="publication-count" class="small mt-2 mb-0" role="status" aria-live="polite"></p>
+</div>
+
 <div class="row">
-    <div class="col-12 col-lg-10">
+    <div class="col-12 col-lg-10" id="publication-results">
         {% for year in pubs_by_year %}
         {% assign num_papers = year.items | size %}
+        <section class="publication-year" aria-labelledby="year-{{ year.name }}">
         <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
         <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
             {% for item in year.items %}
                 {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
             {% endfor %}
         </div>
+        </section>
         {% endfor %}
+        <p id="publication-empty" class="bg-white rounded-sm p-3" hidden>No publications match your search. Try another keyword or clear the search.</p>
     </div>
 
     <div class="col-2 d-none d-lg-block">
@@ -30,3 +45,4 @@ body_attr: >-
     </div>
 
 </div>
+<script defer src="{{ '/assets/js/publications.js' | relative_url }}"></script>

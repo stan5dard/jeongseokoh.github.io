@@ -15,7 +15,7 @@ abstract: >-
 cover:          /assets/images/covers/IJCAIChallenge.jpg
 authors:
   - Minwoo Seong *
-  - <strong>Jeongseok Oh *</strong>
+  - Jeongseok Oh *
   - SeungJun Kim
 links:
   # DOI: https://doi.org/10.3390/app13084952

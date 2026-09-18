@@ -38,3 +38,14 @@ collections:
   - publications
   - news
   - showcase
+
+url: "https://jeongseokoh.com"
+title: "Jeongseok Oh"
+description: "Jeongseok Oh is a Ph.D. student at GIST researching Human–AI Interaction, Generative AI, and Creativity Support. Explore publications, research experience, and CV."
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - assets/cv/Jeongseok_Oh_CV_Updated.docx
+  - assets/cv/~$ongseok_Oh_CV_Updated.docx

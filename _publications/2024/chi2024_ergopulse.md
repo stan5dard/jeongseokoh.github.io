@@ -15,7 +15,7 @@ abstract: >-
 cover: /assets/images/covers/ErgoPulse.png
 authors:
   - Seokhyun Hwang
-  - <strong>Jeongseok Oh</strong>
+  - Jeongseok Oh
   - Seongjun Kang
   - Minwoo Seong
   - Ahmed Elsharkawy

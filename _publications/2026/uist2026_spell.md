@@ -2,9 +2,9 @@
 title:          "SpeLL: A Generative Framework for Synthesizing 3D Visual Effects from Text Prompts with Large Language Models"
 date:           November 2026
 selected:       true
-pub:            "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology"
+pub:            "ACM Symposium on User Interface Software and Technology (UIST 2026)"
 # pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
+pub_post:       ' — Accepted'
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">1<sup>st</sup> author</span>'
 # pub_vol:        "No.174 "
 # pub_date:       "11. May. 2024. "

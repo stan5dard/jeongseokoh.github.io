@@ -9,7 +9,9 @@ positions:
 
 email: "jungseok17@gm.gist.ac.kr"
 cv_link: /assets/cv/Jeongseok_Oh_CV.pdf
-gscholar: NmKrbJQAAAAJ  # This is an example, replace it with your own Google Scholar ID
+cv_updated: September 2026
+last_updated: September 2026
+gscholar: NmKrbJQAAAAJ
 orcid: 0009-0009-1725-2814
 # wos: 34493475
 # scopus: 57913801400
@@ -21,11 +23,15 @@ linkedin: jeongseok-oh-417974295
 short_bio_text_justify: false
 short_bio: >-
   <p>
-  I am a Ph.D. student in Human Computer Interaction (HCI) at the Gwangju Institute of Science and Technology (GIST). <br/>
-  I obtained my Bachelor's Degree in Electrical Engineering and Computer Science from GIST, and I'm currently working on my Master's and Ph.D. Intergrated course on HCI at GIST.
+  I am a Ph.D. student studying Human–Computer Interaction at the
+  Gwangju Institute of Science and Technology (GIST). I am part of the
+  Human-Centered Intelligent Systems Laboratory in the Department of AI,
+  advised by Prof. SeungJun Kim.
   </p>
   <p>
-  My research interests focus on <strong>Human-AI Interaction</strong>, <strong>Generative AI</strong>  and <strong>Creativity Support</strong>.
+  My research focuses on <strong>Human–AI Interaction</strong>,
+  <strong>Generative AI</strong>, and <strong>Creativity Support</strong>,
+  with applications in computer graphics and virtual and augmented reality.
   </p>
 
 portrait_url: /assets/images/photos/ojs.jpg
@@ -35,27 +41,52 @@ portrait_url: /assets/images/photos/ojs.jpg
 education:
 - name: Gwangju Institute of Science and Technology (GIST)
   logo: /assets/images/badges/GIST.svg
-  position: >- 
-    Ph.D. Student in Human Computer Interaction <br/>
-  date: Mar. 2021 - present
+  dept: Department of AI
+  position: >-
+    M.S. and Ph.D. Integrated Program, Intelligent Robotics<br/>
+    Advisor: Prof. SeungJun Kim
+  date: Mar. 2021 – Present
 - name: Gwangju Institute of Science and Technology (GIST)
   logo: /assets/images/badges/GIST.svg
   position: >-
-    B.S. in Electrical Engineering and Computer Science<br/> Magna Cum Laude<br/>
-  date: Mar. 2017 - Feb. 2021
+    B.S. in Electrical Engineering and Computer Science<br/>
+    Magna Cum Laude · Advisor: Prof. Gunhyuk Park
+  date: Mar. 2017 – Feb. 2021
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Human-Centered Intelligent Systems Laboratory, GIST
+  logo: /assets/images/badges/GIST.svg
+  position: Research Assistant · Advisor&#58; Prof. SeungJun Kim
+  date: Mar. 2021 – Present
+- name: Human-Centered Intelligent Systems Laboratory, GIST
+  logo: /assets/images/badges/GIST.svg
+  position: Research Intern · Advisor&#58; Prof. SeungJun Kim
+  date: Mar. 2020 – Feb. 2021
+- name: Computer Graphics Laboratory, GIST
+  logo: /assets/images/badges/GIST.svg
+  position: Research Intern · Advisor&#58; Prof. Bochang Moon
+  date: Dec. 2019 – Feb. 2020
 
 awards:
-- name: GIST-DH Global Startups Idea Contest - 3<sup>rd</sup> Place
-  date: Jun. 2022
-- name: GIST Best paper Award
-  date: Feb. 2021
+- name: Best Paper Award, ACM CHI — TelePulse
+  date: '2025'
+- name: Google Conference Scholarship — CHI 2025
+  date: '2025'
+- name: Honorable Mention Award, ACM CHI — ErgoPulse
+  date: '2024'
+- name: 2nd Place, IJCAI CoachAI Badminton Challenge, Track 2
+  date: '2023'
+- name: 3rd Place, GIST–DH Global Startups Idea Contest
+  date: '2022'
+- name: GIST Best Paper Award; Best Paper Award, HCI Korea
+  date: '2021'
 - name: National Excellence Scholarship for Science Engineering
-  date: Apr. 2019 – Feb. 2021
-- name: Honor Scholarship (Awarded for the students with high GPA)
-  date: 2017, 2018
+  date: 2019 – 2021
+
+teaching:
+- name: Research Method in Human-Computer Interaction, GIST
+  position: Teaching Assistant
+  date: Sep. – Dec. 2022
+- name: GIST–NIA World Friends ICT
+  position: Talent donation program
+  date: Jul. – Aug. 2019
