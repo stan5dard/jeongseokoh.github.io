@@ -56,9 +56,9 @@
                             <ul class="list small pl-3 mb-1">
                                 {% for item in site.data.profile.awards %}
                                 <li>
-                                    <div class="mb-2">
-                                        <div>{{ item.name }} {% unless item.name contains '🏆' %}<span aria-hidden="true">🏆</span>{% endunless %}</div>
-                                        <div><em>{{ item.date }}</em></div>
+                                    <div class="award-row mb-1">
+                                        <div>{{ item.name }}</div>
+                                        <div class="award-year"><em>{{ item.date }}</em></div>
                                     </div>
                                 </li>
                                 {% endfor %}

@@ -83,6 +83,18 @@ div.lazy {
     height: 100%;
 }
 
+.award-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 1rem;
+    align-items: baseline;
+}
+
+.award-year {
+    white-space: nowrap;
+    text-align: right;
+}
+
 /* Native disclosures keep abstracts available without JavaScript. */
 .publication-abstract summary {
     cursor: pointer;
