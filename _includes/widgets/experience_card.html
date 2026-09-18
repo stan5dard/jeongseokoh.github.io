@@ -57,7 +57,7 @@
                                 {% for item in site.data.profile.awards %}
                                 <li>
                                     <div class="mb-2">
-                                        <div>{{ item.name }}</div>
+                                        <div>{{ item.name }} {% unless item.name contains '🏆' %}<span aria-hidden="true">🏆</span>{% endunless %}</div>
                                         <div><em>{{ item.date }}</em></div>
                                     </div>
                                 </li>
