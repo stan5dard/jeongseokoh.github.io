@@ -42,6 +42,12 @@ collections:
 url: "https://jeongseokoh.com"
 title: "Jeongseok Oh"
 description: "Jeongseok Oh is a Ph.D. student at GIST researching Human–AI Interaction, Generative AI, and Creativity Support. Explore publications, research experience, and CV."
+google_analytics:
+  measurement_id: "G-4CBQGEG462"
+  # Only collect visits on the public website, never on localhost or previews.
+  hostnames:
+    - jeongseokoh.com
+    - www.jeongseokoh.com
 exclude:
   - Gemfile
   - Gemfile.lock
