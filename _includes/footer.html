@@ -1,5 +1,11 @@
 <footer class="footer">
     <div class="container">
+        {% if site.mapmyvisitors.globe_id %}
+        <div class="visitor-globe mx-auto my-4 text-center" role="region" aria-label="Visitor locations">
+            <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d={{ site.mapmyvisitors.globe_id | escape }}"></script>
+            <noscript><a href="https://mapmyvisitors.com/">Visitor map by MapMyVisitors</a></noscript>
+        </div>
+        {% endif %}
         <div class="row my-3">
             <div class="col-6">
                 <div class="text-muted">

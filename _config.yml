@@ -48,6 +48,8 @@ google_analytics:
   hostnames:
     - jeongseokoh.com
     - www.jeongseokoh.com
+mapmyvisitors:
+  globe_id: "0904aGjP0WLdgg1wM_o8tueXQvSusLgQFhPcnpzXMHE"
 exclude:
   - Gemfile
   - Gemfile.lock

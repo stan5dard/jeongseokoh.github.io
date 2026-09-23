@@ -123,8 +123,14 @@ div.lazy {
     display: none !important;
 }
 
+.visitor-globe {
+    width: 180px;
+    max-width: 100%;
+    min-height: 180px;
+}
+
 @media print {
     body { padding-top: 0; }
-    .navbar, #publication-search, #navbar-year { display: none !important; }
+    .navbar, #publication-search, #navbar-year, .visitor-globe { display: none !important; }
     .bg { background: none; }
 }
